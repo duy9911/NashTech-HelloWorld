@@ -39,14 +39,17 @@ namespace NashtechHelloWorld
 
         public void CheckMale()
         {
+            Students Max=student[0];
             for (int i = 0; i < student.Count; i++)
             {
 
-                if (student[i].Gender == "Male")
+                if (Max.Age < student[i].Age)
                 {
-                    checkmale.Add(student[i]);
-
+                   Max = student[i];
+                   
+                   oldList.Add(Max);
                 }
+
             }
             foreach (var item in checkmale)
             {
