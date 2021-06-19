@@ -6,39 +6,95 @@ namespace NashtechHelloWorld
     class Program : Students
     {
 
-
         List<Students> student = new List<Students>(){
-                new Students(){FName="Ngo", LName="Duy",Gender="Male",DoB=new DateTime(1999,9,15),PNumber=0389232053,BPlace="Thai Nguyen", Age=22,status="Y" },
+                new Students(){FName="Ngo", LName="Duy",Gender="Male",DoB=new DateTime(2001,9,15),PNumber=0389232053,BPlace="Thai Nguyen", Age=22,status="Y" },
                 new Students(){FName="Dam", LName="Dat",Gender="Male",DoB=new DateTime(1996,9,15),PNumber=0389232057,BPlace="Ha Noi", Age=25,status="Y" },
                 new Students(){FName="Nguyen", LName="Duy",Gender="Female",DoB=new DateTime(2000,9,15),PNumber=0389232059,BPlace="Ha Noi", Age=21,status="N" },
                 };
         List<Students> checkmale = new List<Students>();
         List<Students> oldList = new List<Students>();
         List<string> Fname = new List<string>();
-        List<Students> case1List = new List<Students>();
-        List<Students> case2List = new List<Students>();
-        List<Students> case3List = new List<Students>();
+        static List<Students> case1List = new List<Students>();
+        static List<Students> case2List = new List<Students>();
+        static List<Students> case3List = new List<Students>();
         List<Students> BornInHN = new List<Students>();
 
         static void Main(string[] args)
         {
             Program s = new Program();
-            // s.OldestAge();
+            Console.WriteLine("Select 1 to show list of students male....");
+            Console.WriteLine("Select 2 to show list of students oldest....");
+            Console.WriteLine("Select 3 to match First name and last name together ....");
+            Console.WriteLine("Select 4 to show a new menu....");
+            Console.WriteLine("Select 5 to show the student who was born in HN(just take first student )....");
+            int d = int.Parse(Console.ReadLine());
+            switch (d)
+            {
+                case 1:
+                    System.Console.WriteLine("Male Students---------------- ");
+                    s.CheckMale();
+                    break;
+                case 2:
+                    System.Console.WriteLine("Oldest Students---------------- ");
+                    s.OldestAge();
+                    break;
+                case 3:
+                    System.Console.WriteLine("Student fullname list---------------- ");
+                    s.fullname();
+                    break;
+                case 4:
+                s.about2000();
+                    // System.Console.WriteLine("Select one---------------- ");
+                    // System.Console.WriteLine("+ Select 1 to show who is 2000 ");
+                    // System.Console.WriteLine("+ Select 2 to show who is greater than 2000 ");
+                    // System.Console.WriteLine("+ Select 2 to show who is less than 2000 ");
+                    // System.Console.WriteLine("+ Select any key to close this menu ");
+                    // int duy = int.Parse(Console.ReadLine());
+                    // Console.WriteLine("Check " + duy);
 
-            System.Console.WriteLine("Male Students---------------- ");
-            s.CheckMale();
-            System.Console.WriteLine("Oldest Students---------------- ");
-            s.OldestAge();
-            System.Console.WriteLine("Student fullname list---------------- ");
-            s.fullname();
-            System.Console.WriteLine("Age comparison based on 2000---------------- ");
-            s.about2000();
-            System.Console.WriteLine("First Guy in list who was born in HN---------------- ");
-            s.BHN();
+                    // switch (duy)
+                    // {
+
+                    //     case 1:
+                    //         foreach (var item in case1List)
+                    //         {
+                    //             Console.WriteLine("List of members who has birth year is 2000 ");
+                    //             item.printstudent();
+                    //         }
+                    //         break;
+
+                    //     case 2:
+                    //         foreach (var item in case2List)
+                    //         {
+                    //             Console.WriteLine("List of members who has birth year greater than 2000 ");
+                    //             item.printstudent();
+                    //         }
+                    //         break;
+                    //     case 3:
+                    //         foreach (var item in case3List)
+                    //         {
+                    //             Console.WriteLine("List of members who has birth year less than 2000 ");
+                    //             item.printstudent();
+                    //         }
+                    //         break;
+                    //     default:
+                    //         break;
+
+                    // }
+                    break;
+                case 5:
+                    System.Console.WriteLine("First Student in list who was born in HN----------------");
+                    s.BHN();
+                    break;
+            }
+            Console.ReadKey();
+
+
         }
 
         public void CheckMale()
         {
+
             for (int i = 0; i < student.Count; i++)
             {
 
@@ -56,21 +112,21 @@ namespace NashtechHelloWorld
         }
         public void OldestAge()
         {
-            Students Max=student[0];
+            Students Max = student[0];
+            Students DateMax=oldList[0];
             for (int i = 0; i < student.Count; i++)
             {
 
                 if (Max.Age < student[i].Age)
                 {
-                   student[i] = Max;
-                   oldList.Add(student[i]);
+                    Max = student[i];
+
+                    oldList.Add(Max);
                 }
 
             }
-            foreach (var s in oldList)
-            {
-                s.printstudent();
-            }
+            
+          
             // Console.Write(oldAge);
 
         }
@@ -104,20 +160,45 @@ namespace NashtechHelloWorld
                         break;
                 }
             }
-            foreach (var s in case1List)
+            
+            System.Console.WriteLine("Select one---------------- ");
+            System.Console.WriteLine("+ Select 1 to show who is 2000 ");
+            System.Console.WriteLine("+ Select 2 to show who is greater than 2000 ");
+            System.Console.WriteLine("+ Select 2 to show who is less than 2000 ");
+            System.Console.WriteLine("+ Select any key to close this menu ");
+
+            int duy = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Select case " + duy);
+
+            switch (duy)
             {
-                Console.WriteLine("List of members who has birth year is 2000 ");
-                s.printstudent();
-            }
-            foreach (var s in case2List)
-            {
-                Console.WriteLine("List of members who has birth year greater than 2000 ");
-                s.printstudent();
-            }
-            foreach (var s in case3List)
-            {
-                Console.WriteLine("List of members who has birth year less than 2000 ");
-                s.printstudent();
+
+                case 1:
+                    foreach (var item in case1List)
+                    {
+                        Console.WriteLine("List of members who has birth year is 2000 ");
+                        item.printstudent();
+                    }
+                    break;
+
+                case 2:
+                    foreach (var item in case2List)
+                    {
+                        Console.WriteLine("List of members who has birth year greater than 2000 ");
+                        item.printstudent();
+                    }
+                    break;
+                case 3:
+                    foreach (var item in case3List)
+                    {
+                        Console.WriteLine("List of members who has birth year less than 2000 ");
+                        item.printstudent();
+                    }
+                    break;
+                default:
+                    break;
+
             }
 
 
@@ -133,6 +214,47 @@ namespace NashtechHelloWorld
             }
             BornInHN[0].printstudent();
         }
+        // public void case2000()
+        // {
+        //     System.Console.WriteLine("Select one---------------- ");
+        //     System.Console.WriteLine("+ Select 1 to show who is 2000 ");
+        //     System.Console.WriteLine("+ Select 2 to show who is greater than 2000 ");
+        //     System.Console.WriteLine("+ Select 2 to show who is less than 2000 ");
+        //     System.Console.WriteLine("+ Select any key to close this menu ");
+        //     int duy = int.Parse(Console.ReadLine());
+        //     Console.WriteLine("Check " + duy);
 
+        //     switch (duy)
+        //     {
+
+        //         case 1:
+        //             foreach (var item in case1List)
+        //             {
+        //                 Console.WriteLine("List of members who has birth year is 2000 ");
+        //                 item.printstudent();
+        //             }
+        //             break;
+
+        //         case 2:
+        //             foreach (var item in case2List)
+        //             {
+        //                 Console.WriteLine("List of members who has birth year greater than 2000 ");
+        //                 item.printstudent();
+        //             }
+        //             break;
+        //         case 3:
+        //             foreach (var item in case3List)
+        //             {
+        //                 Console.WriteLine("List of members who has birth year less than 2000 ");
+        //                 item.printstudent();
+        //             }
+        //             break;
+        //         default:
+        //             break;
+
+        //     }
+
+        // }
     }
 }
+

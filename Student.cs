@@ -15,6 +15,7 @@ namespace NashtechHelloWorld
         public void printstudent(){
             Console.WriteLine("Student FirstName is: {0} , LastName: {1} , Gender: {2} , BirthPlace: {3} , DateOfBirth: {4} ,Phone Number: {5}, Age: {6} , status: {7}", FName, LName, Gender, DoB,PNumber, BPlace, Age, status);
     }
+    
     }
 
 }
