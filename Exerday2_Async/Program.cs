@@ -15,9 +15,9 @@ namespace Test
         {
             Program s = new Program();
             Console.WriteLine("Enter min number... ");
-            int min = int.Parse(Console.ReadLine());
+            Int32 min = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter max number... ");
-            int max = int.Parse(Console.ReadLine());
+            Int32 max = int.Parse(Console.ReadLine());
             List<int> primeNumberList = GetPrimeNumber(min, max);
             Task tasks = DoTask();
             //Thread.Sleep(10000);
@@ -28,7 +28,7 @@ namespace Test
         static List<int> GetPrimeNumber(int start, int end)
         {
             List<int> result = new List<int>();
-            int range = (end - start) / 2;
+            Int32 range = (end - start) / 2;
             for (int i = start; i <= end; i++)
             {
                 if (i <= (range + start))
