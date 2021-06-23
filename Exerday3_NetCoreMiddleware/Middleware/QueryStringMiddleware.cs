@@ -5,11 +5,11 @@ using System;
 
 namespace ASPCORE
 {
-    public class FirstMiddleware : IMiddleware
+    public class FourMiddleware : IMiddleware
     {
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
-            Console.WriteLine(context.Request.Scheme);
+            Console.WriteLine(context.Request.QueryString);
             await next(context);
         }
     }

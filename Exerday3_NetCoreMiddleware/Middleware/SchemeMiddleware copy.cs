@@ -5,7 +5,7 @@ using System;
 
 namespace ASPCORE
 {
-    public class FirstMiddleware : IMiddleware
+    public class ThirdMiddleware : IMiddleware
     {
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.IO;
 
 namespace ASPCORE
 {
@@ -17,6 +18,9 @@ namespace ASPCORE
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<SecondMiddleware>();
+            services.AddSingleton<FirstMiddleware>();
+            services.AddSingleton<FourMiddleware>();
+            services.AddSingleton<FiveMiddleware>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -24,6 +28,9 @@ namespace ASPCORE
         {
             app.UseMiddleware<FirstMiddleware>();
             app.UseMiddleware<SecondMiddleware>();
+            app.UseMiddleware<ThirdMiddleware>();
+            app.UseMiddleware<FourMiddleware>();
+            app.UseMiddleware<FiveMiddleware>();
             // Terminal middleware
             app.Run(async (context) =>
             {

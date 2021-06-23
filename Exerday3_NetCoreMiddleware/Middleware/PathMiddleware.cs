@@ -3,16 +3,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 namespace ASPCORE
 {
-    public class FirstMiddleware
+    public class ThirdMiddleware
     {
         private readonly RequestDelegate _next;
-        public FirstMiddleware(RequestDelegate next)
+        public ThirdMiddleware(RequestDelegate next)
         {
             _next = next;
         }
-        public async Task InvokeAsync(HttpContext context)
+        public async Task InvokeAsync(HttpContext context, string sss)
         {
-            Console.WriteLine(context.Request.Path);
+           sss = context.Request.Path;
            await _next(context);
         }
     }
