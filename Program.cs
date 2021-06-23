@@ -113,7 +113,6 @@
                 public void OldestAge()
                 {
                     Students Max = student[0];
-                    Students DateMax=oldList[0];
                     for (int i = 0; i < student.Count; i++)
                     {
 
@@ -125,6 +124,7 @@
                         }
 
                     }
+                    oldList[0].printstudent();
                     
                 
                     // Console.Write(oldAge);
