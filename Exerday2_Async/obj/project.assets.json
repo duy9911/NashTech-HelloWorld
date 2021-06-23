@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\NashtechHelloWorld\\NashtechHelloWorld.csproj",
-      "projectName": "NashtechHelloWorld",
-      "projectPath": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\NashtechHelloWorld\\NashtechHelloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\Test\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\ngoduy9911\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\NashtechHelloWorld\\obj\\",
+      "outputPath": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ngoduy9911\\AppData\\Roaming\\NuGet\\NuGet.Config",

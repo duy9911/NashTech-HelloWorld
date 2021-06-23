@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "NashtechHelloWorld/1.0.0": {
+      "Test/1.0.0": {
         "runtime": {
-          "NashtechHelloWorld.dll": {}
+          "Test.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "NashtechHelloWorld/1.0.0": {
+    "Test/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
