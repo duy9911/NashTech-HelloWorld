@@ -22,7 +22,7 @@ public class MyStartUp
         {
             endpoints.MapGet("/", async (context) =>
             {
-                await context.Request.WriteAsync("Home");
+                await context.Response.WriteAsync("Home");
             });
             endpoints.MapGet("/about", async (context) =>
              {

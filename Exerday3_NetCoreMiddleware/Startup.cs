@@ -17,20 +17,13 @@ namespace ASPCORE
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<SecondMiddleware>();
-            services.AddSingleton<FirstMiddleware>();
-            services.AddSingleton<FourMiddleware>();
-            services.AddSingleton<FiveMiddleware>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseMiddleware<FirstMiddleware>();
-            app.UseMiddleware<SecondMiddleware>();
-            app.UseMiddleware<ThirdMiddleware>();
-            app.UseMiddleware<FourMiddleware>();
-            app.UseMiddleware<FiveMiddleware>();
+            app.UseMiddleware<CustomMiddleware>();
+            app.UseMiddleware<ConsoleMiddleware>();
             // Terminal middleware
             app.Run(async (context) =>
             {
