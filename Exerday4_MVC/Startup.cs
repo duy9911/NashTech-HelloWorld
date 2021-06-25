@@ -53,7 +53,7 @@ namespace APSCORE_MVC
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute(
                     name: "Rookies",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "NashTech/{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
