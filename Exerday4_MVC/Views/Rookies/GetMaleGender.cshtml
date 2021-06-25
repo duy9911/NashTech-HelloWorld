@@ -1,0 +1,22 @@
+@model List<PersonModel>
+@foreach (var item in Model)
+{
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+    <table>
+        <tr>
+            <td>@(item.FirstName+" "+item.LastName)</td>
+            <td>@item.Gender</td>
+            <td>@item.DayOfBirth</td>
+            <td>@item.Age</td>
+            <td>@item.BirthPlace</td>
+            <td>@item.PhoneNumber</td>
+            <td>@item.IsGraduated</td>
+        </tr>
+    </table>
+}

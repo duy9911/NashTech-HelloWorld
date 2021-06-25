@@ -1,0 +1,25 @@
+@model List<PersonModel>
+<h1>actionId = 1 to show 2000 persons List</h1>
+<h1>actionId = 2 to show who greater than 2000</h1>
+<h1>actionId = 3 to show who less than 2000</h1>
+@foreach (var item in Model)
+{
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+    <table>
+        <tr>
+            <td>@(item.FirstName+" "+item.LastName)</td>
+            <td>@item.Gender</td>
+            <td>@item.DayOfBirth</td>
+            <td>@item.Age</td>
+            <td>@item.BirthPlace</td>
+            <td>@item.PhoneNumber</td>
+            <td>@item.IsGraduated</td>
+        </tr>
+    </table>
+}

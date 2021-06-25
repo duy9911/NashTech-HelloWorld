@@ -1,0 +1,9 @@
+@model List<PersonModel>
+
+@{
+    ViewBag.Title = "Standings";
+}
+@foreach (var item in Model)
+{
+    <p>@(item.FirstName+" "+item.FirstName)</p>
+}
