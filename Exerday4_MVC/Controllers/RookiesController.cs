@@ -14,7 +14,7 @@ namespace APSCORE_MVC.Controllers
     public class RookiesController : Controller
     {
         private const string FileDownloadName = "model.xls";
-        List<PersonModel> personModel = new List<PersonModel>(){
+        List<PersonModel> personModelLists = new List<PersonModel>(){
                     new PersonModel(){FirstName="Ngo", LastName="Duy",Gender="Gender",DayOfBirth=new DateTime(2001,9,15),PhoneNumber=0389232053,BirthPlace="Thai Nguyen",Age=20,IsGraduated="Y" },
                     new PersonModel(){FirstName="Nguyen", LastName="Dat",Gender="Male",DayOfBirth=new DateTime(2000,9,15),PhoneNumber=0389232053,BirthPlace="Thai Nguyen",Age=21,IsGraduated="Y" },
                     new PersonModel(){FirstName="Ngo", LastName="Tung",Gender="Male",DayOfBirth=new DateTime(1996,9,15),PhoneNumber=0389232053,BirthPlace="Thai Nguyen",Age=25,IsGraduated="Y" },
@@ -25,7 +25,7 @@ namespace APSCORE_MVC.Controllers
         {
             var model = new List<PersonModel>();
 
-            var result = from item in personModel where item.Gender == "Male" select item;
+            var result = from item in personModelLists where item.Gender == "Male" select item;
             foreach (var item in result)
             {
                 item.Title = "day la";
@@ -38,8 +38,8 @@ namespace APSCORE_MVC.Controllers
         {
             var model = new List<PersonModel>();
 
-            int maxAge = personModel.Max(a => a.Age); // return int type only
-            foreach (var item in personModel)
+            int maxAge = personModelLists.Max(a => a.Age); // return int type only
+            foreach (var item in personModelLists)
             {
                 if (item.Age == maxAge)
                 {
@@ -54,13 +54,13 @@ namespace APSCORE_MVC.Controllers
 
         public IActionResult FullName(int id)
         {
-            return View(personModel);
+            return View(personModelLists);
         }
 
         public IActionResult ComparisonList(int actionId) // comparing with 200
         {
             var model = new List<PersonModel>();
-            foreach (var item in personModel)
+            foreach (var item in personModelLists)
             {
                 if (actionId == 1)
                 {
