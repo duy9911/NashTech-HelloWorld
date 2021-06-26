@@ -1,0 +1,49 @@
+﻿@model List<PersonModel>
+    
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div>
+    <style>
+        th {
+            color: red;
+        }
+
+        .title {
+            color: green;
+        }
+        button{
+            width: 70px;
+        }
+    </style>
+    <div class=title> <h3>Table Displaying All Memmber's Information</h3> </div>
+    <table class="table table-bordered table-responsive table-hover">
+        <tr>
+            <th> Member Name</th>
+            <th> Age</th>
+            <th> Genger</th>
+            <th>Phone Number</th>
+            <th> Birth Place</th>
+            <th> Day of Birth</th>
+            <th> Graduate Status</th>
+            <th>Email </th>
+            <th>Feature </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@(item.FirstName+" "+item.LastName)</td>
+                <td>@item.Age</td>
+                <td>@item.Gender</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.BirthPlace</td>
+                <td>@item.DayOfBirth</td>
+                <td>@item.IsGraduated</td>
+                <td>@item.Email</td>
+                <td><button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

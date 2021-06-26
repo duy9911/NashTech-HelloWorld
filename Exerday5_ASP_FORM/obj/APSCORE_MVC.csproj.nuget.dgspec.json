@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\APSCORE_MVC\\APSCORE_MVC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\APSCORE_MVC\\APSCORE_MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\APSCORE_MVC\\APSCORE_MVC.csproj",
+        "projectName": "APSCORE_MVC",
+        "projectPath": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\APSCORE_MVC\\APSCORE_MVC.csproj",
+        "packagesPath": "C:\\Users\\ngoduy9911\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\APSCORE_MVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ngoduy9911\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

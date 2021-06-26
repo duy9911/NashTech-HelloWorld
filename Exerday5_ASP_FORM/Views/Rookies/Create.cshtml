@@ -1,0 +1,58 @@
+@model PersonModel
+@{
+    ViewData["Title"] = "Create Information";
+}
+<h2 class="display-4">Create Information</h2>
+<form method="POST" class="m-2 p-3 bg-light" ) >
+    <div></div>
+    <div class="form-group">
+        <label>Enter Your First Name :</label>
+        <input asp-for="FirstName" class="form-control"/>
+        <span asp-validation-for="FirstName" ></span>
+    </div>
+    <div class="form-group">
+        <label>Enter Your Last Name:</label>
+        <input class="form-control" type="text"  value="" asp-for="LastName" />
+    </div>
+    <div class="form-group">
+        <label>Enter Your Age:</label>
+        <input class="form-control" type="text"  value="" asp-for="Age" />
+    </div>
+    <div class="form-group">
+        <label>Choose Your Gender:</label>
+        <select class="form-control" asp-for="Gender">
+            <option>Female</option>
+            <option>Male</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label >Enter Your Birth Place</label>
+        <input class="form-control" type="text"  value="" asp-for="BirthPlace" />
+    </div>
+    <div class="form-group">
+        <label >Enter Your Email Address </label>
+        <input class="form-control" type="email"  value="" asp-for="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label>Your Birth Day:</label>
+        <input type="date" class="form-control" asp-for="DayOfBirth">
+    </div>
+    <div class="form-group">
+        <label>Enter Your Phone Number:</label>
+        <input class="form-control" type="number" value="" asp-for="PhoneNumber" />
+    </div>
+    <div class="form-group">
+        <label>ID:</label>
+        <input type="text" class="form-control" asp-for="Id">
+    </div>
+    <div class="form-group">
+        <label>Yes </label>
+        <input type="text" class="form-control" asp-for="IsGraduated">
+    </div>
+    <div class="form-group">
+        <button class="form-control" type="submit" asp-action="Create">Create</button>
+    </div>
+    
+</form>
