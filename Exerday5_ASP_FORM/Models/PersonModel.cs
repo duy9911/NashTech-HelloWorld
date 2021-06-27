@@ -6,21 +6,27 @@ namespace APSCORE_MVC.Models
 {
     public  class PersonModel
     {
-        public int Id { set; get; }
+        public int ID { set; get; }
+
         [Required]
+        [Display(Name = "First Name")]
         public string FirstName { set; get; }
         [Required]
+        [Display(Name = "Last Name")]
         public string LastName { set; get; }
+        
         [Required]
+         [Display(Name = "Gender")]
         public string Gender { set; get; }
+        [Display(Name = "Day of birth")]
         [Required]
-        [DataType(DataType.Date)]
         public DateTime DayOfBirth { set; get; }
-        [Phone]
-        [Range(1,10)]
-        public Int32 PhoneNumber { set; get; }
-        public int Age { set; get; }
+        [Display(Name = "Phone number")]
+        [MinLength(9)]
+        public string PhoneNumber { set; get; }
+        [Display(Name = "BirhtPlace")]
         public string BirthPlace { set; get; }
+        [Display(Name = "IsGraduated")]
         public string IsGraduated { set; get; }
         [Required]
         [EmailAddress]

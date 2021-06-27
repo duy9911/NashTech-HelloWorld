@@ -2,8 +2,8 @@
 @{
     ViewData["Title"] = "Create Information";
 }
-<h2 class="display-4">Create Information</h2>
-<form action="/Rookies/Create" method="post">
+<h2 class="display-4">Edit Information</h2>
+<form action="/Rookies/Edit" method="post">
     <div asp-validation-summary="ModelOnly">
         <span>Please correct the following errors</span>
     </div>
@@ -17,7 +17,6 @@
     <div class="form-group">
         <label>Enter Your Last Name:</label>
         <input class="form-control" type="text" asp-for="LastName" />
-        <span asp-validation-for="LastName"></span>
     </div>
     <div class="form-group">
         <label>Choose Your Gender:</label>
@@ -25,7 +24,6 @@
             <option>Female</option>
             <option>Male</option>
         </select>
-        <span asp-validation-for="Gender"></span>
     </div>
     <div class="form-group">
         <label>Enter Your Birth Place</label>
@@ -40,7 +38,6 @@
     <div class="form-group">
         <label>Your Birth Day:</label>
         <input type="date" class="form-control" asp-for="DayOfBirth">
-        <span asp-validation-for="DayOfBirth"></span>
     </div>
     <div class="form-group">
         <label>Enter Your Phone Number:</label>
@@ -54,7 +51,7 @@
         </select>
     </div>
     <div class="form-group">
-        <button class="form-control" type="submit" asp-action="Create">Create</button>
+        <button class="form-control" type="submit" asp-action="Edit">Update</button>
     </div>
 
 </form>

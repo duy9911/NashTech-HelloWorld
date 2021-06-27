@@ -1,12 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v5.0": {},
-    ".NETCoreApp,Version=v5.0/win7-x86": {}
+    ".NETCoreApp,Version=v3.1": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v5.0": []
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\ngoduy9911\\.nuget\\packages\\": {}
@@ -14,23 +13,23 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ngoduy9911\\Desktop\\VSCODE\\APSCORE_MVC\\APSCORE_MVC.csproj",
+      "projectUniqueName": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\APSCORE_MVC\\APSCORE_MVC.csproj",
       "projectName": "APSCORE_MVC",
-      "projectPath": "c:\\Users\\ngoduy9911\\Desktop\\VSCODE\\APSCORE_MVC\\APSCORE_MVC.csproj",
+      "projectPath": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\APSCORE_MVC\\APSCORE_MVC.csproj",
       "packagesPath": "C:\\Users\\ngoduy9911\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ngoduy9911\\Desktop\\VSCODE\\APSCORE_MVC\\obj\\",
+      "outputPath": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\APSCORE_MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ngoduy9911\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
+        "netcoreapp3.1": {
           "projectReferences": {}
         }
       },
@@ -41,13 +40,26 @@
       }
     },
     "frameworks": {
-      "net5.0": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win7-x86": {
-        "#import": []
       }
     }
   }
