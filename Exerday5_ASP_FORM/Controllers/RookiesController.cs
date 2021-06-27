@@ -48,30 +48,27 @@ namespace APSCORE_MVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                personModelLists.Equals(model);
-                return RedirectToAction("Index");
+                var student = personModelLists.Where(s => s.ID == model.ID).FirstOrDefault();
+                personModelLists.Remove(student);
+                personModelLists.Add(model);
             }
-            return View(model);
+            return RedirectToAction("Index");
         }
         [HttpGet]
         public IActionResult Delete(int Id)
         {
-            var deleteInfor = personModelLists.Where(a => a.ID == Id).FirstOrDefault();
-            return View(deleteInfor);
+            var deleteElement = personModelLists.Where(a => a.ID == Id).FirstOrDefault();
+            return View(deleteElement);
         }
         [HttpPost]
         public IActionResult Delete(PersonModel model)
         {
-            var listDelete = personModelLists.Where(a => a.ID == model.ID).FirstOrDefault();
-            if (ModelState.IsValid)
-            {
-                personModelLists.Remove(listDelete);
-                return RedirectToAction(nameof(Index));
-            }
-            return View(model);
+            personModelLists.RemoveAll(r => r.ID == model.ID);
+
+            return RedirectToActionPermanent("Index", "Rookies", personModelLists);
         }
         [HttpGet]
-        public IActionResult Index(PersonModel model)
+        public IActionResult Index()
         {
             return View(personModelLists);
         }
