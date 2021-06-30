@@ -18,13 +18,17 @@ namespace CoreAPI_ASM2.Services
                 return personModelLists;
             }
 
-            public List<PersonModel> Create(PersonModel model)
+            public bool Create(PersonModel model)
             {
-                var id = personModelLists.Max(a => a.ID);
-                id += 1;
-                model.ID = id;
-                personModelLists.Add(model);
-                return personModelLists;
+                if (model != null)
+                {
+                    var id = personModelLists.Max(a => a.ID);
+                    id += 1;
+                    model.ID = id;
+                    personModelLists.Add(model);
+                    return true;
+                }
+                return false;
             }
 
             public bool Delete(int id)
@@ -46,7 +50,7 @@ namespace CoreAPI_ASM2.Services
 
             public PersonModel GetSelected(int id)
             {
-                   return personModelLists.FirstOrDefault(s => s.ID == id);
+                return personModelLists.FirstOrDefault(s => s.ID == id);
             }
             public List<PersonModel> Filters(PersonModel model)
             {

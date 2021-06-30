@@ -13,20 +13,26 @@ namespace CoreAPI_ASM2.Controllers
             _service = service;
         }
 
-        [HttpGet("person/{id}")]
-        public  PersonModel Get(int id)
+        [HttpGet("persons")]
+        public List<PersonModel> GetList()
         {
-             return _service.GetSelected(id);
+            return _service.GetList();
+        }
+
+        [HttpGet("person/{id}")]
+        public PersonModel Get(int id)
+        {
+            return _service.GetSelected(id);
         }
 
         [HttpPut("person")]
-        public void Create(PersonModel model)
+        public void Create([Bind("FirstName,LastName,Gender,DayOfBirth,BirthPlace")] PersonModel model)
         {
-            _service.Create(model);
+                _service.Create(model);
         }
 
         [HttpPost("person")]
-        public void Update(PersonModel model)
+        public void Update([Bind("FirstName,LastName,Gender,DayOfBirth,BirthPlace")] PersonModel model)
         {
             _service.Update(model);
         }
