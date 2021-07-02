@@ -1,21 +1,19 @@
-
-using EF_ASPCORE.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CoreAPI_ASM2.Models;
+using CoreAPI_ASM2.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using EF_ASPCORE.Services;
-using Microsoft.EntityFrameworkCore;
+using static CoreAPI_ASM2.Services.StudentService;
 
-namespace EF_ASPCORE
+namespace CoreAPI_ASM2
 {
     public class Startup
     {
@@ -30,9 +28,10 @@ namespace EF_ASPCORE
         public void ConfigureServices(IServiceCollection services)
         {
             string connectionString = Configuration.GetConnectionString("DefaultConnection");
-            services.AddControllers();
-            services.AddTransient<IStudentService, StudentService>();
             services.AddDbContext<StudentContext>(options => options.UseSqlServer(connectionString));
+            services.AddControllers();
+            services.AddSwaggerGen();
+            services.AddTransient<IStudentService, StudentService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,10 +43,14 @@ namespace EF_ASPCORE
             }
 
             app.UseHttpsRedirection();
-            app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "EF_Core_1v7v21 v1"));
 
             app.UseRouting();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+             {
+                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                 c.RoutePrefix = string.Empty;
+             });
 
             app.UseAuthorization();
 

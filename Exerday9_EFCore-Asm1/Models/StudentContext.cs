@@ -1,8 +1,9 @@
+using CoreAPI_ASM2.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace EF_ASPCORE.Models
+namespace CoreAPI_ASM2.Models
 {
-    public class StudentContext : DbContext
+     public class StudentContext : DbContext
     {
         public StudentContext(DbContextOptions options) : base(options)
         {  
@@ -11,4 +12,3 @@ namespace EF_ASPCORE.Models
         public DbSet<Student> Student { set; get; }
     }
 }
-

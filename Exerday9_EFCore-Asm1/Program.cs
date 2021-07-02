@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace EF_ASPCORE
+namespace CoreAPI_ASM2
 {
     public class Program
     {

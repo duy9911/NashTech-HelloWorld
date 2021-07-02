@@ -1,11 +1,12 @@
+using System;
 using System.Collections.Generic;
-using EF_ASPCORE.Models;
-using EF_ASPCORE.Services;
+using CoreAPI_ASM2.Models;
+using CoreAPI_ASM2.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreAPI_ASM2.Controllers
 {
-    public class RookiesController
+    public class RookiesController : ControllerBase
     {
         private readonly IStudentService _service;
         public RookiesController(IStudentService service)
@@ -13,18 +14,36 @@ namespace CoreAPI_ASM2.Controllers
             _service = service;
         }
 
-        [HttpGet("students")]
-        public  List<Student> GetList()
+        [HttpGet("persons")]
+        public List<Student> GetList()
         {
-            return  _service.GetList();
+            return _service.GetList();
         }
 
-        [HttpPut("Ssudent")]
-        public Student Create([Bind("FirstName,LastName,City,State,")] Student model)
+        [HttpGet("person/{id}")]
+        public Student Get(int id)
         {
-             return _service.Create(model);
+            return _service.GetSelected(id);
         }
 
-        
+        [HttpPost("person")]
+        public List<Student> Create(Student model)
+        {
+            return _service.Create(model);
+        }
+
+        [HttpPut("person")]
+        public bool Update(Student model)
+        {
+            _service.Update(model);
+            return true;
+        }
+
+        [HttpDelete("person/{id}")]
+        public bool Delete(int id)
+        {
+            return _service.Delete(id);
+        }
+
     }
 }

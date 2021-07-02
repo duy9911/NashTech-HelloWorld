@@ -1,13 +1,16 @@
 using System.Collections.Generic;
-using EF_ASPCORE.Models;
-namespace EF_ASPCORE.Services
+using CoreAPI_ASM2.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace CoreAPI_ASM2.Services
 {
-     public interface IStudentService
+    public interface IStudentService
     {
         List<Student> GetList();
-        Student Create(Student model);
+        List<Student> Create(Student model);
         bool Delete(int id);
-        Student Update(Student model);
+        Student GetSelected(int id);
+        void Update(Student model);
 
     }
 }
