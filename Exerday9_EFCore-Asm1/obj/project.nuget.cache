@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QqkW/Q5Qu20rRiatSDjA2dSJ0CQbQQLU+sQEN+3iQ9gig1XpVvWdAXZUEaQt6TLMpGek7IKKBKMwWGcRg3/A2Q==",
+  "dgSpecHash": "8hOw9uunRiCG0e9h1YHPvHcw5ZUTuYZ/otS8M6MdFMfR01e1i3Oxz+kZeBGRgyTVZAW16Haoqz3ySzKb0Cx+sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\EF-ASPCORE.csproj",
+  "projectFilePath": "c:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\EF-ASPCORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ngoduy9911\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ngoduy9911\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

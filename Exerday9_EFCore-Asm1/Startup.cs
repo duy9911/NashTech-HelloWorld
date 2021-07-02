@@ -1,18 +1,19 @@
+
+using EF_ASPCORE.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EF_ASPCORE.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using EF_ASPCORE.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace EF_ASPCORE
 {
@@ -30,7 +31,6 @@ namespace EF_ASPCORE
         {
             string connectionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddControllers();
-            services.AddSwaggerGen();
             services.AddTransient<IStudentService, StudentService>();
             services.AddDbContext<StudentContext>(options => options.UseSqlServer(connectionString));
         }

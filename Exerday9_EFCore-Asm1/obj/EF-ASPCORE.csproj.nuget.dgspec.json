@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\EF-ASPCORE.csproj": {}
+    "c:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\EF-ASPCORE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\EF-ASPCORE.csproj": {
+    "c:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\EF-ASPCORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\EF-ASPCORE.csproj",
+        "projectUniqueName": "c:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\EF-ASPCORE.csproj",
         "projectName": "EF-ASPCORE",
-        "projectPath": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\EF-ASPCORE.csproj",
+        "projectPath": "c:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\EF-ASPCORE.csproj",
         "packagesPath": "C:\\Users\\ngoduy9911\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\obj\\",
+        "outputPath": "c:\\Users\\ngoduy9911\\Desktop\\VSCODE\\EF-ASPCORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ngoduy9911\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,7 +44,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[*, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
