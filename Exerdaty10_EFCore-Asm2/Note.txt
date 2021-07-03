@@ -1,0 +1,3 @@
+done CRUD 
+
+tomorrow: add DI, SWagger 
