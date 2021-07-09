@@ -1,0 +1,14 @@
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor;
+
+@{
+    var user = HttpContextAccessor.HttpContext.Session.GetString("Name");
+}
+<figure class="text-center">
+    <blockquote class="blockquote">
+        <p>Person @user was removed from the list successfully!</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+       Back to <cite title="Source Title"><a href="@Url.Action("Index","Rookies")">Table</a></cite>
+    </figcaption>
+</figure>

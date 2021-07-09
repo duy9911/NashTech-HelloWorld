@@ -1,1 +1,1 @@
-https://localhost:5001/duy/?n=DuyMicrosoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+http://localhost:5000/favicon.icoMicrosoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream

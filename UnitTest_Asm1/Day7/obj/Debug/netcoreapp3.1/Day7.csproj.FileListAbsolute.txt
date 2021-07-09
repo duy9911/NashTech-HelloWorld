@@ -1,0 +1,84 @@
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\bin\Debug\netcoreapp3.1\Day7.exe
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\bin\Debug\netcoreapp3.1\Day7.deps.json
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\bin\Debug\netcoreapp3.1\Day7.runtimeconfig.json
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\bin\Debug\netcoreapp3.1\Day7.runtimeconfig.dev.json
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\bin\Debug\netcoreapp3.1\Day7.dll
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\bin\Debug\netcoreapp3.1\Day7.pdb
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\bin\Debug\netcoreapp3.1\Day7.Views.dll
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\bin\Debug\netcoreapp3.1\Day7.Views.pdb
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.csprojAssemblyReference.cache
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.AssemblyInfoInputs.cache
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.AssemblyInfo.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.csproj.CoreCompileInputs.cache
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.RazorAssemblyInfo.cache
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.RazorAssemblyInfo.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.TagHelpers.input.cache
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.TagHelpers.output.cache
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.RazorCoreGenerate.cache
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Create.cshtml.g.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Edit.cshtml.g.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Index.cshtml.g.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.RazorTargetAssemblyInfo.cache
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.RazorTargetAssemblyInfo.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.Views.pdb
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\staticwebassets\Day7.StaticWebAssets.Manifest.cache
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\staticwebassets\Day7.StaticWebAssets.xml
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.dll
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.pdb
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.genruntimeconfig.cache
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Day7.csproj.CopyComplete
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Detail.cshtml.g.cs
+C:\Users\ngoduy9911\Desktop\VSCODE\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Confirm.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\bin\Debug\netcoreapp3.1\appsettings.Development.json
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\bin\Debug\netcoreapp3.1\appsettings.json
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\bin\Debug\netcoreapp3.1\Day7.exe
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\bin\Debug\netcoreapp3.1\Day7.deps.json
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\bin\Debug\netcoreapp3.1\Day7.runtimeconfig.json
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\bin\Debug\netcoreapp3.1\Day7.runtimeconfig.dev.json
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\bin\Debug\netcoreapp3.1\Day7.dll
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\bin\Debug\netcoreapp3.1\Day7.pdb
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\bin\Debug\netcoreapp3.1\Day7.Views.dll
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\bin\Debug\netcoreapp3.1\Day7.Views.pdb
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.csprojAssemblyReference.cache
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.AssemblyInfoInputs.cache
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.AssemblyInfo.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.csproj.CoreCompileInputs.cache
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.RazorAssemblyInfo.cache
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.RazorAssemblyInfo.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\staticwebassets\Day7.StaticWebAssets.Manifest.cache
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\staticwebassets\Day7.StaticWebAssets.xml
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\scopedcss\bundle\Day7.styles.css
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.TagHelpers.input.cache
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.TagHelpers.output.cache
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.RazorCoreGenerate.cache
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Confirm.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Create.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Detail.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Edit.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Index.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.RazorTargetAssemblyInfo.cache
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.RazorTargetAssemblyInfo.cs
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.Views.pdb
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.dll
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.pdb
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.genruntimeconfig.cache
+c:\Users\ngoduy9911\Desktop\VSCODE\Learnning session\unit\Day7\obj\Debug\netcoreapp3.1\Day7.csproj.CopyComplete

@@ -1,0 +1,47 @@
+@model PersonModel
+@{
+    ViewData["Title"] = "Create Information";
+}
+<h2 class="display-4">@Model.LastName Information</h2>
+<form action="/Rookies/Detail" method="post">
+    <div></div>
+    <div class="form-group">
+        <label>ID:</label>
+        <p class="form-control"> @Model.ID</p>
+    </div>
+    <div class="form-group">
+        <label> Full Name :</label>
+        <p class="form-control"> @(Model.FirstName+" "+Model.LastName)</p>
+    </div>
+    <div class="form-group">
+        <label> Gender:</label>
+        <p class="form-control"> @Model.Gender</p>
+    </div>
+    <div class="form-group">
+        <label> Birth Place</label>
+        <p class="form-control"> @Model.BirthPlace</p>
+    </div>
+    <div class="form-group">
+        <label> Email Address </label>
+        <p class="form-control"> @Model.Email</p>
+    </div>
+    <div class="form-group">
+        <label> Birth Day:</label>
+        <p class="form-control"> @Model.DayOfBirth</p>
+    </div>
+    <div class="form-group">
+        <label> Phone Number:</label>
+        <p class="form-control"> @Model.PhoneNumber</p>
+    </div>
+    <div class="form-group">
+        <label>Graduate status:</label>
+        <p class="form-control"> @Model.IsGraduated</p>
+    </div>
+    <div class="form-group">
+        <button class="form-control" type="submit" asp-action="Index">Back To Table</button>
+        <button onclick="return confirm('Are you sure you want to delete this?')" class="form-control"> <a aria-hidden="true"
+                href="@Url.Action("Delete","Rookies", new {id =Model.ID})"> Delete </a></button>
+
+    </div>
+
+</form>

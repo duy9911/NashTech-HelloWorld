@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/XhBS+IdZqtzvrIpPmPI/AUPr5KBqSXL7O9Sbf3jmbO54PGp3zIDIEI7Yj36KPXHGS3Y25E6DRx+oHIJrx47TQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\ngoduy9911\\Desktop\\VSCODE\\Learnning session\\unit\\Day7\\Day7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ngoduy9911\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ngoduy9911\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ngoduy9911\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\ngoduy9911\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.16\\microsoft.netcore.app.host.win-x64.3.1.16.nupkg.sha512"
+  ],
+  "logs": []
+}
